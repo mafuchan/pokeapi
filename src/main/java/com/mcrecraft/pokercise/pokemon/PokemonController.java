@@ -52,9 +52,9 @@ public class PokemonController {
 
     @PutMapping("/{id}")
     @ResponseStatus(HttpStatus.CREATED)
-    public Map<String, Pokemon> update(@RequestBody Pokemon pokemon, @PathVariable Long id) {
+    public Map<String, Pokemon> update(@RequestBody Pokemon someResource, @PathVariable Long id) {
         Pokemon updatedPokemon = pokemonService
-                .update(pokemon)
+                .update(someResource)
                 .orElseThrow(() -> new ResourceNotFoundException("No Pokemon with that ID"));
         return createHashSingular(updatedPokemon);
     }
