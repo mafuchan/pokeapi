@@ -1,5 +1,5 @@
 Deployed link https://crecraft-pokeapi.herokuapp.com
-So frustrating lol!
+So frustrating lol! One of these days...
 
 ## Pokemon API
 
