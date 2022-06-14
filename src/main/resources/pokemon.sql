@@ -1,13 +1,13 @@
-DROP TABLE IF EXISTS pokemon;
+DROP TABLE IF EXISTS pokemondb;
 
-CREATE TABLE pokemon(
+CREATE TABLE pokemondb(
     id INTEGER PRIMARY KEY,
     name TEXT UNIQUE,
     front_default TEXT UNIQUE
 );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         1,
@@ -16,7 +16,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         2,
@@ -25,7 +25,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         3,
@@ -34,7 +34,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         4,
@@ -43,7 +43,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         5,
@@ -52,7 +52,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         6,
@@ -61,7 +61,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         7,
@@ -70,7 +70,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         8,
@@ -79,7 +79,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         9,
@@ -88,7 +88,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         10,
@@ -97,7 +97,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         11,
@@ -106,7 +106,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         12,
@@ -115,7 +115,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         13,
@@ -124,7 +124,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         14,
@@ -133,7 +133,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         15,
@@ -142,7 +142,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         16,
@@ -151,7 +151,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         17,
@@ -160,7 +160,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         18,
@@ -169,7 +169,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         19,
@@ -178,7 +178,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         20,
@@ -187,7 +187,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         54,
@@ -196,7 +196,7 @@ VALUES
     );
 
 INSERT into
-    pokemon(id, name, front_default)
+    pokemondb(id, name, front_default)
 VALUES
     (
         55,
